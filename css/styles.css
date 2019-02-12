@@ -1,21 +1,30 @@
+
+
 body {
 	margin: 0;
 	padding: 0;
+	background-color: #1D252C;
+}
+
+::selection {
+	background: #fff;
+	color: #000;
 }
 
 .bookmarks {
-	background-color: #f2f2f2;
+	background-color: #fff;
+	/*background-color: rgba(255, 255, 255, 0.75);*/
 	height: 32px;
 	border-bottom: 1px solid #e6e6e6;
 	text-align: center;
 	cursor: default;
+
 }
 
 .vertical-align {
 	margin: auto;
 	height: 32px;
 	width: 400px;
-
 }
 
 .bookmark {
@@ -40,7 +49,7 @@ body {
 	width: 16px;
 	height: 16px;
 	background-size: 100%;
-	background-image: url(/Users/khapankov/Documents/Personal/startpage/images/vk.ico);
+
 }
 
 .vk {
@@ -69,4 +78,103 @@ body {
 
 .sheet {
 	background-image: url(/Users/khapankov/Documents/Personal/startpage/images/sheets.png);
+}
+
+h1, h2 {
+	margin: 0;
+}
+
+.test {
+	display: flex;
+	flex-wrap: wrap;
+}
+.wrapper {
+	padding: 64px 80px;
+	min-width: 50%;
+	flex-grow: 999;
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+	
+}
+
+h1 {
+	font-size: 36px;
+	font-weight: 800;
+	flex-shrink: 0;
+	color: #718CA1;
+}
+
+h2 {
+	margin-bottom: 24px;
+	display: none;
+}
+
+p {
+	font-size: 14px;
+	font-weight: 400;
+	
+}
+
+section {
+	float: left;
+	margin-left: 144px;
+}
+
+section:first-child {
+	margin-left: 0;
+}
+
+span.dev a{
+	color: #465A68;
+	margin-left: 12px;
+}
+
+header a {
+	font-size: 36px;
+	font-weight: 700;
+	text-decoration: none;
+	color: #718CA1;
+}
+
+header span a {
+	font-size: 20px;
+}
+
+section a:hover {
+	color: #eee;
+}
+
+section ul {
+	list-style: none;
+	margin: 62px 0 0;
+	padding: 0;
+}
+
+section>ul:nth-child(1) {
+	margin: 72px 0 0;
+}
+
+section ul li {
+	margin-top: 34px;
+}
+
+section ul li:first-child {
+	margin-top: 0;
+}
+
+section ul li a {
+	font-size: 18px;
+	font-weight: 500;
+	text-decoration: none;
+	color: #718CA1;
+}
+
+
+.sidebar {
+	background: #fff;
+	flex-basis: 20rem;
+	flex-grow: 1;
+}
+
+.content {
+
 }

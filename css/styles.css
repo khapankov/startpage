@@ -53,31 +53,31 @@ body {
 }
 
 .vk {
-	background-image: url(images/vk.ico);
+	background-image: url(../images/vk.ico);
 }
 
 .fb {
-	background-image: url(images/facebook.ico);
+	background-image: url(../images/facebook.ico);
 }
 
 .gmail {
-	background-image: url(images/gmail.ico);
+	background-image: url(../images/gmail.ico);
 }
 
 .trello {
-	background-image: url(images/trello.png);
+	background-image: url(../images/trello.png);
 }
 
 .drive {
-	background-image: url(images/drive.ico);
+	background-image: url(../images/drive.ico);
 }
 
 .toggl {
-	background-image: url(images/toggl.ico);
+	background-image: url(../images/toggl.ico);
 }
 
 .sheet {
-	background-image: url(images/sheets.png);
+	background-image: url(../images/sheets.png);
 }
 
 h1, h2 {
